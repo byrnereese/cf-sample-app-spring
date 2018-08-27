@@ -27,6 +27,7 @@ class Application {
 			model.addAttribute("cfservices", cfservices)
 			model.addAttribute("cfservicename", cfservicename)
 			model.addAttribute("cfservice", cfservice)
+            model.addAttribute("byrne_var1","Byrne Reese")
 		} catch (Exception ex) {
 			// No services
 			model.addAttribute("cfservice", "")
